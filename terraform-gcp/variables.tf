@@ -6,13 +6,13 @@ variable "project_id" {
 variable "region" {
   description = "GCP Region"
   type        = string
-  default     = "us-central1"
+  default     = "asia-east1"
 }
 
 variable "zone" {
   description = "GCP Zone"
   type        = string
-  default     = "us-central1-a"
+  default     = "asia-east1-a"
 }
 
 variable "hf_token" {
@@ -31,7 +31,7 @@ variable "model_id" {
 variable "machine_type" {
   description = "GCE Machine Type for the GPU node"
   type        = string
-  default     = "n1-standard-4"
+  default     = "n2-standard-8"
 }
 
 variable "gpu_type" {
